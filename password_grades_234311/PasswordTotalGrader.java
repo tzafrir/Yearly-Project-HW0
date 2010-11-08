@@ -32,6 +32,7 @@ public class PasswordTotalGrader implements PasswordTotalGraderInterface {
    * @param password The password to be graded.
    * @return A grade between 0 and 100 of how strong the password is.
    */
+  @Override
   public int grade(String password) {
     int result = 0;
     for (PasswordGrader grader : graders) {
