@@ -7,7 +7,7 @@ import java.util.List;
  * Workmaster class that runs all instances of PasswordGrader.
  * @author Tzafrir Rehan (tzafrir@cs.technion.ac.il)
  */
-public class PasswordTotalGrader {
+public class PasswordTotalGrader implements PasswordTotalGraderInterface {
   List<PasswordGrader> graders;
 
   /**
